@@ -2399,6 +2399,7 @@ input, select, textarea {
 				height: auto;
 				max-height: 208px;
 				max-width: 300px;
+				width: 300px;
 				align-items: center;
 			}
 
