@@ -25,6 +25,22 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+span.dark-green {
+	color: #172729;
+}
+
+span.blue {
+	color: #2E939E;
+}
+
+span.red {
+	color: #D3593D;
+}
+
+span.white {
+	color: #fff;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -98,10 +114,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #293241;
+		color: #172729;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 300;
 		line-height: 1.65em;
 	}
 
@@ -136,7 +151,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #293241;
+		color: #D3593D;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2042,7 +2057,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: rgba(144, 144, 144, 0.5);
+			background: #D3593D;
 			content: '';
 			display: inline-block;
 			height: 1px;
@@ -2164,7 +2179,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #293241;
+			color: #172729;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2207,8 +2222,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #293241;
-			border-color: #293241;
+			background: #172729;
+			border-color: #172729;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -2706,11 +2721,11 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #D3593D;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.5);
-		color: #555 !important;
+		box-shadow: inset 0 0 0 1px #fff;
+		color: #fff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
@@ -2832,7 +2847,7 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #3d5a80;
+			background-color: #5fa2aa;
 			color: #ffffff;
 			background-attachment: fixed,							fixed;
 			/* background-image: url("images/overlay1.png"), url("../../images/header.jpg"); */
@@ -2848,7 +2863,7 @@ input, select, textarea {
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #ffffff;
+				color: #fff;
 			}
 
 			.main.style2 header p {
@@ -2856,7 +2871,7 @@ input, select, textarea {
 			}
 
 			.main.style2 header.major:after {
-				background: #ffffff;
+				background: #ae472f;
 			}
 
 			.main.style2 input[type="submit"],
@@ -2923,10 +2938,10 @@ input, select, textarea {
 
 	#header {
 		padding: 6em 0 6em 0 ;
-		background-color: #98c1d9;
-		color: #293241;
+		background-color: #BCE2E8;
+		color: #172729;
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #98c1d9 5%, #98c1d9 30%, #98c1d9);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #BCE2E8 5%, #BCE2E8 30%, #BCE2E8);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2943,7 +2958,7 @@ input, select, textarea {
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #ffffff;
+			color: #D3593D;
 			font-weight: bold;
 		}
 
@@ -2960,8 +2975,8 @@ input, select, textarea {
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			box-shadow: inset 0 0 0 2px #ffffff;
-			color: #293241 !important;
+			box-shadow: inset 0 0 0 2px #fff;
+			color: #ffffff !important;
 		}
 
 			#header input[type="submit"]:hover,
@@ -3020,7 +3035,8 @@ input, select, textarea {
 		}
 
 		#header p {
-			margin: 1em 0 0 0;
+			font-weight: 300;
+			text-align: center;
 		}
 
 		#header .actions {
@@ -3044,7 +3060,7 @@ input, select, textarea {
 				left: 50%;
 				position: absolute;
 				top: 100%;
-				width: 1px;
+				width: 2px;
 			}
 
 		#header .inner {
@@ -3120,10 +3136,10 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #293241;
+		background-color: #172729;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #293241, #293241 50%, #293241 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #172729, #172729 50%, #172729 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
