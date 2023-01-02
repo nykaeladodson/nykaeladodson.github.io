@@ -9,7 +9,6 @@
 		var	$this = $(this);
 			$a = $this.find('a'),
 			b = [];
-
 		$a.each(function() {
 
 			var	$this = $(this),
@@ -165,7 +164,6 @@
 
 							// Redirect to href.
 								window.setTimeout(function() {
-
 									if (target == '_blank')
 										window.open(href);
 									else
@@ -248,7 +246,7 @@
 						}
 
 				});
-
+				console.log($this)
 			// Event: Prevent certain events inside the panel from bubbling.
 				$this.on('click touchend touchstart touchmove', function(event) {
 					event.stopPropagation();
